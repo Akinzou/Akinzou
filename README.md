@@ -33,7 +33,6 @@ Most of my commercial code is in private client repositories; [yelon.dev](https:
 | [**PythonMetaTrader5**](https://github.com/Akinzou/MetaTrader5-Python) | Python layer over the MetaTrader 5 API for algorithmic trading: order normalization, full retcode handling, safeguards for live accounts.<br>[![Downloads](https://static.pepy.tech/badge/pythonmetatrader5)](https://pepy.tech/project/pythonmetatrader5) [![PyPI](https://img.shields.io/pypi/v/PythonMetaTrader5?color=00f0ff&labelColor=07070d)](https://pypi.org/project/PythonMetaTrader5/) |
 | [**TradeLockerBot**](https://github.com/Akinzou/TradeLockerBot) | FastAPI service that turns TradingView alerts into TradeLocker orders. The webhook path is a random secret printed once at startup. Docker image built by GitHub Actions. |
 | [**CapitalCom**](https://github.com/Akinzou/CapitalCom) | Python client for the Capital.com API.<br>[![Downloads](https://static.pepy.tech/badge/capitalcom)](https://pepy.tech/project/capitalcom) [![PyPI](https://img.shields.io/pypi/v/capitalcom?color=00f0ff&labelColor=07070d)](https://pypi.org/project/capitalcom/) |
-| [**TradingViewBacktester**](https://github.com/Akinzou/TradingViewBacktester) | Backtester for TradingView strategies in Python. |
 
 ## Stack
 
