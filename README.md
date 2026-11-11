@@ -19,6 +19,15 @@ Most of my commercial code is in private client repositories; [yelon.dev](https:
 
 ## Open source
 
+**Contributions**
+
+| Project | What I did |
+| --- | --- |
+| [**ros2_medkit**](https://github.com/selfpatch/ros2_medkit)<br>[![Stars](https://img.shields.io/github/stars/selfpatch/ros2_medkit?color=bf00ff&labelColor=07070d)](https://github.com/selfpatch/ros2_medkit) | Diagnostics gateway for ROS 2 robots (C++). [Merged fix](https://github.com/selfpatch/ros2_medkit/pull/775) in the fault manager: a snapshot topic whose publisher starts after the node used to be skipped for good; now it is picked up as soon as the graph reports its type. |
+| [**pytripgui**](https://github.com/pytrip/pytripgui)<br>[![Stars](https://img.shields.io/github/stars/pytrip/pytripgui?color=bf00ff&labelColor=07070d)](https://github.com/pytrip/pytripgui) | GUI for PyTRiP, radiotherapy treatment planning with ions (Python). Moved the plan and field models to Pythonic properties as part of the MVC refactor. |
+
+**My projects**
+
 | Project | What it does |
 | --- | --- |
 | [**PythonMetaTrader5**](https://github.com/Akinzou/MetaTrader5-Python) | Python layer over the MetaTrader 5 API for algorithmic trading: order normalization, full retcode handling, safeguards for live accounts.<br>[![Downloads](https://static.pepy.tech/badge/pythonmetatrader5)](https://pepy.tech/project/pythonmetatrader5) [![PyPI](https://img.shields.io/pypi/v/PythonMetaTrader5?color=00f0ff&labelColor=07070d)](https://pypi.org/project/PythonMetaTrader5/) |
