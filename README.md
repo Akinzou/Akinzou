@@ -11,7 +11,7 @@
 
 I'm **Wiktor Jeleń**, a backend and platform engineer based in Cracow, Poland. I build multi-tenant production systems, infrastructure and security-critical backends, and I wrote [PythonMetaTrader5](https://github.com/Akinzou/MetaTrader5-Python), an open-source library with over 43,000 PyPI downloads.
 
-I start from architecture, invariants and failure modes, then write the code and prove it with tests and CI. I work AI-native every day (Claude Code, OpenAI Codex, Antigravity), with the test suite and the pipeline deciding what ships.
+I start from architecture, invariants and failure modes, then write the code and prove it with tests and CI. I work AI-native every day with Claude Code, OpenAI Codex and Antigravity.
 
 Most of my commercial code lives in private client repositories, so the work is described below instead of linked.
 
@@ -43,16 +43,27 @@ R&D systems engineer with the GEEETECH team in Shenzhen (Klipper firmware, hardw
 
 ## Open source
 
-| Project | What it does | |
-| --- | --- | --- |
-| [**PythonMetaTrader5**](https://github.com/Akinzou/MetaTrader5-Python) | Python layer over the MetaTrader 5 API for algorithmic trading: order normalization, full retcode handling, safeguards for live accounts. | [![Downloads](https://static.pepy.tech/badge/pythonmetatrader5)](https://pepy.tech/project/pythonmetatrader5) [![PyPI](https://img.shields.io/pypi/v/PythonMetaTrader5?color=00f0ff&labelColor=07070d)](https://pypi.org/project/PythonMetaTrader5/) |
-| [**TradeLockerBot**](https://github.com/Akinzou/TradeLockerBot) | FastAPI service that turns TradingView alerts into TradeLocker orders. The webhook path is a random secret printed once at startup. Docker image built by GitHub Actions. | ![FastAPI, Docker](https://img.shields.io/badge/FastAPI-Docker-07070d?labelColor=07070d&color=bf00ff) |
-| [**CapitalCom**](https://github.com/Akinzou/CapitalCom) | Python client for the Capital.com API. | ![Python API client](https://img.shields.io/badge/Python-API-07070d?labelColor=07070d&color=00ff9d) |
-| [**TradingViewBacktester**](https://github.com/Akinzou/TradingViewBacktester) | Backtester for TradingView strategies in Python. | ![Python backtesting](https://img.shields.io/badge/Python-backtesting-07070d?labelColor=07070d&color=ff00a0) |
+| Project | What it does |
+| --- | --- |
+| [**PythonMetaTrader5**](https://github.com/Akinzou/MetaTrader5-Python) | Python layer over the MetaTrader 5 API for algorithmic trading: order normalization, full retcode handling, safeguards for live accounts.<br>[![Downloads](https://static.pepy.tech/badge/pythonmetatrader5)](https://pepy.tech/project/pythonmetatrader5) [![PyPI](https://img.shields.io/pypi/v/PythonMetaTrader5?color=00f0ff&labelColor=07070d)](https://pypi.org/project/PythonMetaTrader5/) |
+| [**TradeLockerBot**](https://github.com/Akinzou/TradeLockerBot) | FastAPI service that turns TradingView alerts into TradeLocker orders. The webhook path is a random secret printed once at startup. Docker image built by GitHub Actions. |
+| [**CapitalCom**](https://github.com/Akinzou/CapitalCom) | Python client for the Capital.com API. |
+| [**TradingViewBacktester**](https://github.com/Akinzou/TradingViewBacktester) | Backtester for TradingView strategies in Python. |
 
 ## Stack
 
 <img src="./assets/stack.svg" alt="Stack. Backend and data: TypeScript, Node.js, NestJS, Python, FastAPI, Django / DRF, PHP / Laravel, PostgreSQL, MySQL, MongoDB, Redis, Temporal.io. Platform and infra: Linux, Docker, Kubernetes, Terraform, Nginx, AWS, GCP, Azure, GitHub Actions, GitLab, Hetzner. Architecture and security: multi-tenant isolation, PostgreSQL RLS, Clean Architecture / DDD, TDD, OWASP ASVS, LDAP / AD, JWT, Semgrep. AI and automation: Claude / OpenAI / Gemini APIs, MCP, RAG / vector search, LangChain / LangGraph, LLM evals, Playwright, n8n, Whisper. Also: React, Next.js, Vue.js, C++, embedded / Klipper, Fusion 360." width="100%">
+
+<details>
+<summary>Stack as text</summary>
+
+- **Backend & data:** TypeScript, Node.js, NestJS, Python, FastAPI, Django / DRF, PHP / Laravel, PostgreSQL, MySQL, MongoDB, Redis, Temporal.io
+- **Platform & infra:** Linux, Docker, Kubernetes, Terraform, Nginx, AWS, GCP, Azure, GitHub Actions, GitLab, Hetzner
+- **Architecture & security:** multi-tenant isolation, PostgreSQL RLS, Clean Architecture / DDD, TDD, OWASP ASVS, LDAP / AD, JWT, Semgrep
+- **AI & automation:** Claude / OpenAI / Gemini APIs, MCP, RAG / vector search, LangChain / LangGraph, LLM evals, Playwright, n8n, Whisper
+- **Also:** React, Next.js, Vue.js, C++, embedded / Klipper, Fusion 360
+
+</details>
 
 ---
 
