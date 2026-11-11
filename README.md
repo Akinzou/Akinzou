@@ -9,7 +9,7 @@
   <a href="mailto:root@yelon.dev"><img src="https://img.shields.io/badge/root@yelon.dev-07070d?style=for-the-badge&logo=minutemailer&logoColor=ff00a0" alt="Email root@yelon.dev"></a>
 </p>
 
-I'm **Wiktor Jeleń**, a backend and platform engineer based in Cracow, Poland. I build multi-tenant production systems, infrastructure and security-critical backends, and I wrote [PythonMetaTrader5](https://github.com/Akinzou/MetaTrader5-Python), an open-source library with over 43,000 PyPI downloads.
+I'm **Wiktor Jeleń**, a backend and platform engineer based in Cracow, Poland. I build multi-tenant production systems, infrastructure and security-critical backends. On the quant side I wrote two open-source trading libraries: [PythonMetaTrader5](https://github.com/Akinzou/MetaTrader5-Python), with over 43,000 PyPI downloads, and [CapitalCom](https://github.com/Akinzou/CapitalCom), with over 10,000.
 
 I start from architecture, invariants and failure modes, then write the code and prove it with tests and CI. I work AI-native every day with Claude Code, OpenAI Codex and Antigravity.
 
