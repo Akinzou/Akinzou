@@ -9,7 +9,7 @@
   <a href="mailto:root@yelon.dev"><img src="https://img.shields.io/badge/root@yelon.dev-07070d?style=for-the-badge&logo=minutemailer&logoColor=ff00a0" alt="Email root@yelon.dev"></a>
 </p>
 
-I'm **Wiktor Jeleń**, a backend and platform engineer based in Cracow, Poland. I build multi-tenant production systems, infrastructure and security-critical backends. On the quant side I wrote two open-source trading libraries: [PythonMetaTrader5](https://github.com/Akinzou/MetaTrader5-Python) for the MetaTrader 5 API, with over 43,000 PyPI downloads, and [CapitalCom](https://github.com/Akinzou/CapitalCom), a Python client for the Capital.com broker API, with over 10,000.
+I'm **Wiktor Jeleń**, a backend and platform engineer based in Cracow, Poland. I build multi-tenant production systems, infrastructure and security-critical backends. On the quant side I wrote two open-source trading libraries: [PythonMetaTrader5](https://github.com/Akinzou/MetaTrader5-Python) for the MetaTrader 5 API, with about 45,000 PyPI downloads, and [CapitalCom](https://github.com/Akinzou/CapitalCom), a Python client for the Capital.com broker API, with over 10,000.
 
 I start from architecture, invariants and failure modes, then write the code and prove it with tests and CI. I work AI-native every day with Claude Code, OpenAI Codex and Antigravity.
 
@@ -30,9 +30,9 @@ Most of my commercial code is in private client repositories; [yelon.dev](https:
 
 | Project | What it does |
 | --- | --- |
-| [**PythonMetaTrader5**](https://github.com/Akinzou/MetaTrader5-Python) | Python layer over the MetaTrader 5 API for algorithmic trading: order normalization, full retcode handling, safeguards for live accounts.<br>[![Downloads](https://static.pepy.tech/badge/pythonmetatrader5)](https://pepy.tech/project/pythonmetatrader5) [![PyPI](https://img.shields.io/pypi/v/PythonMetaTrader5?color=00f0ff&labelColor=07070d)](https://pypi.org/project/PythonMetaTrader5/) |
-| [**TradeLockerBot**](https://github.com/Akinzou/TradeLockerBot) | FastAPI service that turns TradingView alerts into TradeLocker orders. The webhook path is a random secret printed once at startup. Docker image built by GitHub Actions. |
-| [**CapitalCom**](https://github.com/Akinzou/CapitalCom) | Python client for the Capital.com API.<br>[![Downloads](https://static.pepy.tech/badge/capitalcom)](https://pepy.tech/project/capitalcom) [![PyPI](https://img.shields.io/pypi/v/capitalcom?color=00f0ff&labelColor=07070d)](https://pypi.org/project/capitalcom/) |
+| [**PythonMetaTrader5**](https://github.com/Akinzou/MetaTrader5-Python) | Python layer over the MetaTrader 5 API for algorithmic trading: order normalization, full retcode handling, safeguards for live accounts. 100% line and branch coverage.<br>[![Downloads](https://static.pepy.tech/badge/pythonmetatrader5)](https://pepy.tech/project/pythonmetatrader5) [![PyPI](https://img.shields.io/pypi/v/PythonMetaTrader5?color=00f0ff&labelColor=07070d)](https://pypi.org/project/PythonMetaTrader5/) |
+| [**TradeLockerBot**](https://github.com/Akinzou/TradeLockerBot) | FastAPI service that turns TradingView alerts into TradeLocker orders. The webhook path is a random secret printed once at startup. Ships as a Docker image on GHCR, built by GitHub Actions. 99% test coverage. |
+| [**CapitalCom**](https://github.com/Akinzou/CapitalCom) | Python client for the Capital.com REST and WebSocket API. A scheduled CI job runs contract tests on a Capital.com demo account that open and close real positions. 98% test coverage.<br>[![Downloads](https://static.pepy.tech/badge/capitalcom)](https://pepy.tech/project/capitalcom) [![PyPI](https://img.shields.io/pypi/v/capitalcom?color=00f0ff&labelColor=07070d)](https://pypi.org/project/capitalcom/) |
 
 ## Stack
 
